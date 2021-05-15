@@ -1,0 +1,32 @@
+[
+  {
+    "name":"Bhendi",
+    "price":"45",
+    "quantity":"500gm",
+    "image":"https://storage.googleapis.com/okshop-prod-public/oks-catalog-images/e118e9a9-e9a7-45d7-bac8-b85f79a63e97.jpg"
+  },
+  {
+    "name":"Jhingi",
+    "price":"50",
+    "quantity":"500gm",
+    "image":"https://storage.googleapis.com/okshop-prod-public/oks-catalog-images/e118e9a9-e9a7-45d7-bac8-b85f79a63e97.jpg"
+  },
+  {
+    "name":"Hara Mirch Jada Tikha",
+    "price":"20",
+    "quantity":"250gm",
+    "image":"https://storage.googleapis.com/okshop-prod-public/oks-catalog-images/ee6a1abd-dfc3-46e9-9024-be9c1fcad50b.jpg"
+  },
+  {
+    "name":"Lal Shag",
+    "price":"20",
+    "quantity":"500gm",
+    "image":"/organic-red-spinach-lal-bhaji-lal-saag-original.jpeg"
+  },
+  {
+    "name":"Kohda paka",
+    "price":"30",
+    "quantity":"500gm",
+    "image":"/kohda-paka.jpg"
+  }
+]
