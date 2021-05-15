@@ -16,7 +16,7 @@ export default function Home() {
               itemProp="description"
             >
               Fresh Vegetables right at your door - &nbsp;
-              <a href="tel:09931708803" itemprop="telephone">
+              <a href="tel:09931708803" itemProp="telephone">
                 09931708803
               </a>
             </h1>

@@ -25,7 +25,7 @@ export default function Vegetable() {
             {each.name}
           </h2>
           <p className="font-medium bg-yellow-400  text-green-800">
-            <span itemprop="priceCurrency" content="Indian rupee">
+            <span itemProp="priceCurrency" content="Indian rupee">
               Rs.
             </span>
             <span itemProp="price" content={each.price}>
