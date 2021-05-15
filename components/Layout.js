@@ -2,7 +2,7 @@ import Header from './Header';
 
 export default function Layout(props) {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200" itemScope itemType="https://schema.org/LocalBusiness">
       <Header />
 
       <main>

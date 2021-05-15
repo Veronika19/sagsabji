@@ -1,32 +1,212 @@
 [
   {
-    "name":"Bhendi",
-    "price":"45",
+    "name":"Bhindi",
+    "price":"28/KG",
     "quantity":"500gm",
-    "image":"https://storage.googleapis.com/okshop-prod-public/oks-catalog-images/e118e9a9-e9a7-45d7-bac8-b85f79a63e97.jpg"
+    "image":"/bhindi.jpg"
   },
   {
     "name":"Jhingi",
-    "price":"50",
+    "price":"22/KG",
     "quantity":"500gm",
-    "image":"https://storage.googleapis.com/okshop-prod-public/oks-catalog-images/e118e9a9-e9a7-45d7-bac8-b85f79a63e97.jpg"
+    "image":"/jhingi.jpg"
   },
   {
-    "name":"Hara Mirch Jada Tikha",
-    "price":"20",
+    "name":"Nenua",
+    "price":"19/KG",
+    "quantity":"500gm",
+    "image":"/nenua.jpg"
+  },
+  {
+    "name":"Tomato",
+    "price":"20/KG",
+    "quantity":"500gm",
+    "image":"/tomato.jpg"
+  },
+  {
+    "name":"Karela",
+    "price":"40/KG",
+    "quantity":"500gm",
+    "image":"/karela.jpg"
+  },
+  {
+    "name":"Bodi",
+    "price":"38/KG",
+    "quantity":"500gm",
+    "image":"/bodi.jpg"
+  },
+  {
+    "name":"Lauki",
+    "price":"22/KG",
+    "quantity":"500gm",
+    "image":"/lauki.jpg"
+  },
+  {
+    "name":"Kheera",
+    "price":"21/KG",
+    "quantity":"500gm",
+    "image":"/kheera.jpg"
+  },
+  {
+    "name":"Gobi Full",
+    "price":"40/KG",
+    "quantity":"500gm",
+    "image":"/gobi.jpg"
+  },
+  {
+    "name":"Gobi Patta",
+    "price":"20/KG",
+    "quantity":"500gm",
+    "image":"/gobi.jpg"
+  },
+  {
+    "name":"Baigan",
+    "price":"28/KG",
+    "quantity":"500gm",
+    "image":"/baigan.jpg"
+  },
+  {
+    "name":"Kathal",
+    "price":"26/KG",
+    "quantity":"500gm",
+    "image":"/kathal.jpg"
+  },
+  {
+    "name":"Patal",
+    "price":"30/KG",
+    "quantity":"500gm",
+    "image":"/patal.jpg"
+  },
+  {
+    "name":"Lahsun",
+    "price":"120/KG",
+    "quantity":"500gm",
+    "image":"/lahsun.jpg"
+  },
+  {
+    "name":"Adrak",
+    "price":"100/KG",
+    "quantity":"500gm",
+    "image":"/adrak.jpg"
+  },
+  {
+    "name":"Lemon",
+    "price":"5/piece",
+    "quantity":"500gm",
+    "image":"/lemon.jpg"
+  },
+  {
+    "name":"Carrot",
+    "price":"28/KG",
+    "quantity":"500gm",
+    "image":"/carrot.jpg"
+  },
+  {
+    "name":"Beetroot",
+    "price":"42/KG",
+    "quantity":"500gm",
+    "image":"/beetroot.jpg"
+  },
+  {
+    "name":"Papita Paka",
+    "price":"30/KG",
+    "quantity":"500gm",
+    "image":"/papita-paka.jpg"
+  },
+  {
+    "name":"Papita Kacha",
+    "price":"20/KG",
+    "quantity":"500gm",
+    "image":"/papita-kacha.jpg"
+  },
+  {
+    "name":"Mango Kacha",
+    "price":"28/KG",
+    "quantity":"500gm",
+    "image":"/mango-kacha.jpg"
+  },
+  {
+    "name":"Mango Paka",
+    "price":"50/KG",
+    "quantity":"500gm",
+    "image":"/mango-paka.jpg"
+  },
+  {
+    "name":"Tarbuz",
+    "price":"15/KG",
+    "quantity":"500gm",
+    "image":"/tarbuz.jpg"
+  },
+  {
+    "name":"Sag Hara",
+    "price":"24/KG",
+    "quantity":"500gm",
+    "image":"/sag-hara.jpg"
+  },
+  {
+    "name":"Mirchi",
+    "price":"84/KG",
     "quantity":"250gm",
-    "image":"https://storage.googleapis.com/okshop-prod-public/oks-catalog-images/ee6a1abd-dfc3-46e9-9024-be9c1fcad50b.jpg"
+    "image":"/hari-mirch.jpg"
+  },
+  {
+    "name":"Aaloo Lal",
+    "price":"20/KG",
+    "quantity":"250gm",
+    "image":"/aaloo.jpg"
+  },
+  {
+    "name":"Aaloo Safed",
+    "price":"16/KG",
+    "quantity":"250gm",
+    "image":"/aaloo-safed.jpg"
+  },
+  {
+    "name":"Pyaz",
+    "price":"22/KG",
+    "quantity":"250gm",
+    "image":"/pyaz.jpg"
+  },
+  {
+    "name":"Dhania Pata",
+    "price":"98/KG",
+    "quantity":"250gm",
+    "image":"/dhania-pata.jpg"
+  },
+  {
+    "name":"Pudina Pata",
+    "price":"90/KG",
+    "quantity":"250gm",
+    "image":"/pudina-pata.jpg"
+  },
+  {
+    "name":"Giloy",
+    "price":"98/KG",
+    "quantity":"250gm",
+    "image":"/giloy.jpg"
+  },
+  {
+    "name":"Bel",
+    "price":"6/Piece",
+    "quantity":"250gm",
+    "image":"/bel.jpg"
   },
   {
     "name":"Lal Shag",
-    "price":"20",
+    "price":"24/KG",
     "quantity":"500gm",
     "image":"/organic-red-spinach-lal-bhaji-lal-saag-original.jpeg"
   },
   {
     "name":"Kohda paka",
-    "price":"30",
+    "price":"18/KG",
     "quantity":"500gm",
     "image":"/kohda-paka.jpg"
+  },
+  {
+    "name":"Kohda Kacha",
+    "price":"22/KG",
+    "quantity":"500gm",
+    "image":"/kohda-kacha.jpg"
   }
 ]
