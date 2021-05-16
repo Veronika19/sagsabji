@@ -1,6 +1,4 @@
 import Head from 'next/head';
-
-import Slider from '../components/Slider';
 import Vegetable from '../components/Vegetables';
 
 export default function Home() {
@@ -26,7 +24,6 @@ export default function Home() {
                 08271700921
               </a>
             </h1>
-            <Slider />
             <div className="flex flex-wrap -m-4" itemScope itemType="https://schema.org/ItemList">
               <Vegetable />
             </div>
