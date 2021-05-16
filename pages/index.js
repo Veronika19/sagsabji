@@ -14,7 +14,7 @@ export default function Home() {
               className="text-xl font-medium title-font text-center text-green-700 mb-20"
               itemProp="description"
             >
-              Fresh reen Vegetables, Fruits, Milk, Egg delivered directly from farm to home. &nbsp;
+              Fresh green Vegetables, Fruits, Milk, Egg delivered directly from farm to home. &nbsp;
               Call/WhatsApp -{' '}
               <a href="tel:09931708803" itemProp="telephone" className="underline">
                 09931708803

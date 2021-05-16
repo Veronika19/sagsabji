@@ -5,7 +5,7 @@ export default function Header() {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex lg:w-1/3 flex-wrap order-first lg:order-none title-font font-medium items-center justify-center text-green-700 lg:items-center lg:justify-center">
             <span className="ml-3 text-4xl" itemProp="name">
-              Sag SabjiWala
+              Sag SabjiWale
             </span>
             <br />
             <span className="mt-2 text-sm">Available in BTPS, Kathara, Jarangdih</span>
