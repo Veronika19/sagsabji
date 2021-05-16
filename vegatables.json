@@ -123,7 +123,7 @@
     "name":"Mango Kacha",
     "price":"28/KG",
     "quantity":"500gm",
-    "image":"/mango-kacha.jpg"
+    "image":"/mango-kacha.jpeg"
   },
   {
     "name":"Mango Paka",
@@ -135,7 +135,7 @@
     "name":"Tarbuz",
     "price":"15/KG",
     "quantity":"500gm",
-    "image":"/tarbuz.jpg"
+    "image":"/tarbuz.jpeg"
   },
   {
     "name":"Sag Hara",
@@ -195,7 +195,7 @@
     "name":"Lal Shag",
     "price":"24/KG",
     "quantity":"500gm",
-    "image":"/organic-red-spinach-lal-bhaji-lal-saag-original.jpeg"
+    "image":"/organic-red-spinach-lal-saag-original.jpeg"
   },
   {
     "name":"Kohda paka",
@@ -207,6 +207,6 @@
     "name":"Kohda Kacha",
     "price":"22/KG",
     "quantity":"500gm",
-    "image":"/kohda-kacha.jpg"
+    "image":"/kohda-kacha.jpeg"
   }
 ]
