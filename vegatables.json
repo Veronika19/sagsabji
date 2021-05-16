@@ -15,13 +15,13 @@
     "name":"Nenua",
     "price":"19/KG",
     "quantity":"500gm",
-    "image":"/nenua.jpg"
+    "image":"/nenua.jpeg"
   },
   {
     "name":"Tomato",
     "price":"20/KG",
     "quantity":"500gm",
-    "image":"/tomato.jpg"
+    "image":"/tomato.jpeg"
   },
   {
     "name":"Karela",
@@ -45,19 +45,19 @@
     "name":"Kheera",
     "price":"21/KG",
     "quantity":"500gm",
-    "image":"/kheera.jpg"
+    "image":"/kheera.jpeg"
   },
   {
     "name":"Gobi Full",
     "price":"40/KG",
     "quantity":"500gm",
-    "image":"/gobi.jpg"
+    "image":"/ful-gobi.jpeg"
   },
   {
     "name":"Gobi Patta",
     "price":"20/KG",
     "quantity":"500gm",
-    "image":"/gobi.jpg"
+    "image":"/patta-gobi.jpeg"
   },
   {
     "name":"Baigan",
@@ -75,19 +75,19 @@
     "name":"Patal",
     "price":"30/KG",
     "quantity":"500gm",
-    "image":"/patal.jpg"
+    "image":"/patal.jpeg"
   },
   {
     "name":"Lahsun",
     "price":"120/KG",
     "quantity":"500gm",
-    "image":"/lahsun.jpg"
+    "image":"/lahsun.jpeg"
   },
   {
     "name":"Adrak",
     "price":"100/KG",
     "quantity":"500gm",
-    "image":"/adrak.jpg"
+    "image":"/adrak.jpeg"
   },
   {
     "name":"Lemon",
@@ -99,7 +99,7 @@
     "name":"Carrot",
     "price":"28/KG",
     "quantity":"500gm",
-    "image":"/carrot.jpg"
+    "image":"/carrot.jpeg"
   },
   {
     "name":"Beetroot",
@@ -111,13 +111,13 @@
     "name":"Papita Paka",
     "price":"30/KG",
     "quantity":"500gm",
-    "image":"/papita-paka.jpg"
+    "image":"/papita-paka.jpeg"
   },
   {
     "name":"Papita Kacha",
     "price":"20/KG",
     "quantity":"500gm",
-    "image":"/papita-kacha.jpg"
+    "image":"/papita-kacha.jpeg"
   },
   {
     "name":"Mango Kacha",
@@ -138,10 +138,10 @@
     "image":"/tarbuz.jpeg"
   },
   {
-    "name":"Sag Hara",
+    "name":"Saag Hara",
     "price":"24/KG",
     "quantity":"500gm",
-    "image":"/sag-hara.jpg"
+    "image":"/palak-saag-loose-kg.jpeg"
   },
   {
     "name":"Mirchi",
@@ -153,43 +153,43 @@
     "name":"Aaloo Lal",
     "price":"20/KG",
     "quantity":"250gm",
-    "image":"/aaloo.jpg"
+    "image":"/aaloo-lal.jpeg"
   },
   {
     "name":"Aaloo Safed",
     "price":"16/KG",
     "quantity":"250gm",
-    "image":"/aaloo-safed.jpg"
+    "image":"/aaloo-safed.jpeg"
   },
   {
     "name":"Pyaz",
     "price":"22/KG",
     "quantity":"250gm",
-    "image":"/pyaz.jpg"
+    "image":"/pyaz.jpeg"
   },
   {
     "name":"Dhania Pata",
     "price":"98/KG",
     "quantity":"250gm",
-    "image":"/dhania-pata.jpg"
+    "image":"/dhania-pata.jpeg"
   },
   {
     "name":"Pudina Pata",
     "price":"90/KG",
     "quantity":"250gm",
-    "image":"/pudina-pata.jpg"
+    "image":"/pudina-pata.jpeg"
   },
   {
     "name":"Giloy",
     "price":"98/KG",
     "quantity":"250gm",
-    "image":"/giloy.jpg"
+    "image":"/giloy.jpeg"
   },
   {
     "name":"Bel",
     "price":"6/Piece",
     "quantity":"250gm",
-    "image":"/bel.jpg"
+    "image":"/bel.jpeg"
   },
   {
     "name":"Lal Shag",
