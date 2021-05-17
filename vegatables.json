@@ -27,19 +27,19 @@
     "name":"Karela",
     "price":"40/KG",
     "quantity":"500gm",
-    "image":"/karela.jpg"
+    "image":"/karela.jpeg"
   },
   {
     "name":"Bodi",
     "price":"38/KG",
     "quantity":"500gm",
-    "image":"/bodi.jpg"
+    "image":"/bodi.jpeg"
   },
   {
     "name":"Lauki",
     "price":"22/KG",
     "quantity":"500gm",
-    "image":"/lauki.jpg"
+    "image":"/lauki.jpeg"
   },
   {
     "name":"Kheera",
@@ -93,7 +93,7 @@
     "name":"Lemon",
     "price":"5/piece",
     "quantity":"500gm",
-    "image":"/lemon.jpg"
+    "image":"/lemon.jpeg"
   },
   {
     "name":"Carrot",
@@ -129,7 +129,7 @@
     "name":"Mango Paka",
     "price":"50/KG",
     "quantity":"500gm",
-    "image":"/mango-paka.jpg"
+    "image":"/mango-pakka.jpeg"
   },
   {
     "name":"Tarbuz",
