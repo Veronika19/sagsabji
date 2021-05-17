@@ -17,7 +17,7 @@ const people = [
   },
   {
     id: 3,
-    image: '/kheera.jpeg',
+    image: '/giloy.jpeg',
     name: 'peter smith',
     title: 'product designer',
     quote:

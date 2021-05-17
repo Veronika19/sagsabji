@@ -9,10 +9,10 @@ function App() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    // let sliderInterval = setInterval(() => setNext(), 3000);
-    // return () => {
-    //   clearInterval(sliderInterval);
-    // };
+    let sliderInterval = setInterval(() => setNext(), 3000);
+    return () => {
+      clearInterval(sliderInterval);
+    };
   }, [index]);
 
   const setNext = () => {
@@ -31,7 +31,7 @@ function App() {
     <div className="mt-1 mb-8 md:mt-8 h-40 md:h-80 max-w-screen-xl text-center relative flex overflow-hidden section-center">
       {people.map((person, personIndex) => {
         const { id, image, name, title } = person;
-        console.log(index);
+        // console.log(index);
         let position = personIndex === index ? 'activeSlide' : 'nextSlide';
         if (personIndex === index - 1 || (index === 0 && personIndex === people.length - 1)) {
           position = 'lastSlide';
@@ -40,7 +40,7 @@ function App() {
           <article className={`${position} flex flex-row left-6 md:left-8 items-center`} key={id}>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/5 mb-10 md:mb-0">
               <Image
-                width={350}
+                width={400}
                 height={300}
                 src={image}
                 alt={name}
@@ -63,13 +63,13 @@ function App() {
       })}
       <button
         onClick={() => setPrev()}
-        className="top-10 md:top-40 prev bg-yellow-400 text-green-700 rounded-lg"
+        className="top-14 md:top-40 prev bg-yellow-400 text-green-700 rounded-lg"
       >
         <FiChevronLeft />
       </button>
       <button
         onClick={() => setNext()}
-        className="top-10 md:top-40 next bg-yellow-400 text-green-700 rounded-lg"
+        className="top-14 md:top-40 next bg-yellow-400 text-green-700 rounded-lg"
       >
         <FiChevronRight />
       </button>
