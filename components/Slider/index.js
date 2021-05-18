@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-    <div className="shadow-2xl rounded-tl-lg rounded-br-lg mt-1 mb-4 md:mt-8 h-40 md:h-80 bg-green-600 max-w-screen-xl text-center relative flex overflow-hidden section-center">
+    <div className="shadow-2xl mt-1 mb-4 md:mt-8 h-32 md:h-60 bg-white max-w-screen-xl text-center relative flex overflow-hidden section-center">
       {people.map((person, personIndex) => {
         const { id, image, name, title } = person;
         // console.log(index);
@@ -40,8 +40,8 @@ function App() {
           <article className={`${position} flex flex-row left-6 md:left-8 items-center`} key={id}>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/5">
               <Image
-                width={400}
-                height={300}
+                width={200}
+                height={150}
                 src={image}
                 alt={name}
                 className="object-cover object-center rounded"
@@ -63,13 +63,13 @@ function App() {
       })}
       <button
         onClick={() => setPrev()}
-        className="top-20 md:top-40 prev bg-yellow-400 text-green-700 rounded-sm"
+        className="top-16 md:top-32 prev bg-yellow-400 text-green-700 rounded-sm"
       >
         <FiChevronLeft />
       </button>
       <button
         onClick={() => setNext()}
-        className="top-20 md:top-40 next bg-yellow-400 text-green-700 rounded-sm"
+        className="top-16 md:top-32 next bg-yellow-400 text-green-700 rounded-sm"
       >
         <FiChevronRight />
       </button>

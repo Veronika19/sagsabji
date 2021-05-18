@@ -17,8 +17,8 @@ const people = [
   },
   {
     id: 3,
-    image: '/giloy.jpeg',
-    name: 'giloy',
+    image: '/nenua.jpeg',
+    name: 'nenua',
     title: 'free',
     quote:
       'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
