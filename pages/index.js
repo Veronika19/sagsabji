@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Vegetable from '../components/Vegetables';
 
+import Slider from '../components/Slider';
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
