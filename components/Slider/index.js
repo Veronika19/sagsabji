@@ -48,15 +48,15 @@ function App() {
               />
             </div>
             <div className="-ml-6 md:-ml-10 lg:flex-grow w-3/5 md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="-mt-2 title-font sm:text-4xl md:text-3xl text-base capitalize mb-4 font-medium text-yellow-400">
+              <h1 className="-mt-2 title-font sm:text-4xl md:text-3xl text-base capitalize mb-4 font-medium text-green-700">
                 {name}
                 <br className="inline-block" />
                 {title}
               </h1>
 
-              <p className="hidden md:block mb-8 leading-relaxed">
+              {/* <p className="hidden md:block mb-8 leading-relaxed">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant
-              </p>
+              </p> */}
             </div>
           </article>
         );
