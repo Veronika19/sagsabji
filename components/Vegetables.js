@@ -1,12 +1,12 @@
 import List from '../vegatables.json';
 import Image from 'next/image';
-import { FiPlusSquare, FiMinusSquare } from 'react-icons/fi';
+import Counter from './Counter';
 
 export default function Vegetable() {
   const vegList = List.map((each, index) => {
     return (
       <div
-        key={index}
+        key={each.id}
         className="w-1/2 px-2 mb-8 lg:w-1/4 md:w-3/4"
         itemScope
         itemType="https://schema.org/Product"
@@ -21,22 +21,8 @@ export default function Vegetable() {
             src={each.image}
           />
         </a>
-        <div className="flex flex-col bg-yellow-400 rounded-2xl">
-          <div className="flex text-base justify-between mb-1">
-            <button
-              // onClick={() => setPrev()}
-              className="px-3 py-1 text-lg bg-green-700 text-yellow-400 rounded-sm"
-            >
-              <FiMinusSquare />
-            </button>
-            <h3 className="text-gray-900 title-font font-bold">1 kg</h3>
-            <button
-              // onClick={() => setNext()}
-              className="px-3 py-1 text-lg bg-green-700 text-yellow-400 rounded-sm"
-            >
-              <FiPlusSquare />
-            </button>
-          </div>
+        <div className="flex flex-col bg-yellow-400 rounded-tl-2xl rounded-tr-2xl">
+          <Counter id={each.id} />
           <div className="flex justify-around text-base">
             <h2 className="text-gray-900 title-font font-bold" itemProp="name">
               {each.name}
