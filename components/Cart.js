@@ -25,7 +25,7 @@ export default function Cart() {
             </div>
             <button className="px-6 md:px-8 py-1 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl mr-2">
               <a href={`https://api.whatsapp.com/send?phone=918897433040&text=${whatsAppMsg}`}>
-                <FiShoppingCart />
+                <FiSend />
               </a>
             </button>
           </div>
