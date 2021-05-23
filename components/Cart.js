@@ -1,4 +1,4 @@
-import { FiShoppingCart } from 'react-icons/fi';
+import { FiSend } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
 import { formatQuantity } from './Helper';
 
@@ -23,8 +23,12 @@ export default function Cart() {
             <div className="text-white text-lg ml-2">
               <i>Total added: {cart.length} items</i>
             </div>
-            <button className="px-6 md:px-8 py-1 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl mr-2">
-              <a href={`https://api.whatsapp.com/send?phone=918897433040&text=${whatsAppMsg}`}>
+            <button className="px-6 md:px-8 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
+              <a
+                className="flex  flex-row items-center "
+                href={`https://api.whatsapp.com/send?phone=918897433040&text=${whatsAppMsg}`}
+              >
+                <span className="mr-2">Order</span>
                 <FiSend />
               </a>
             </button>
