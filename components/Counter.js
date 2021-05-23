@@ -3,14 +3,15 @@ import { quantityUp, quantityDown, resetCount } from '../store';
 import { useSelector } from 'react-redux';
 import { FiPlusSquare, FiMinusSquare, FiShoppingCart } from 'react-icons/fi';
 
-const Counter = ({ id }) => {
+const Counter = ({ id, name }) => {
+  // console.log('======', name);
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
   const item = cart.filter((each) => each.id == id);
 
   let addToCart = (
     <button
-      onClick={() => dispatch(quantityUp(id, 1))}
+      onClick={() => dispatch(quantityUp(id, name, 1))}
       className="flex flex-row justify-around items-center py-1 w-full md:px-8 text-sm  bg-green-700 text-yellow-400 rounded-tl-xl rounded-tr-xl"
     >
       <span>Add to basket</span> <FiShoppingCart size={18} />
@@ -21,14 +22,14 @@ const Counter = ({ id }) => {
     addToCart = (
       <>
         <button
-          onClick={() => dispatch(quantityDown(id, 1))}
+          onClick={() => dispatch(quantityDown(id, name, 1))}
           className="px-3 md:px-8 py-1 text-lg bg-green-700 text-yellow-400 rounded-sm rounded-tl-xl"
         >
           <FiMinusSquare />
         </button>
         <h3 className="text-gray-900 title-font font-bold">{item[0].quantity} kg</h3>
         <button
-          onClick={() => dispatch(quantityUp(id, 1))}
+          onClick={() => dispatch(quantityUp(id, name, 1))}
           className="px-3 md:px-8 py-1 text-lg bg-green-700 text-yellow-400 rounded-sm rounded-tr-xl"
         >
           <FiPlusSquare />

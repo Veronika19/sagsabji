@@ -22,7 +22,7 @@ export default function Vegetable() {
           />
         </a>
         <div className="flex flex-col bg-yellow-400 rounded-tl-2xl rounded-tr-2xl">
-          <Counter id={each.id} />
+          <Counter {...each} />
           <div className="flex justify-around text-base">
             <h2 className="text-gray-900 title-font font-bold" itemProp="name">
               {each.name}

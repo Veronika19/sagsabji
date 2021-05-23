@@ -22,13 +22,14 @@ export const cart = (state = exampleInitialState, action) => {
   // console.log('actionaction', action);
   switch (action.type) {
     case 'QTY_UP':
+      // console.log('upup', action);
       if (state.length == 0) {
-        return [{ ...state, id: action.id, quantity: action.up }];
+        return [{ ...state, id: action.id, name: action.name, quantity: action.up }];
       }
       const index = state.findIndex((x) => x.id === action.id);
       let newProduct = false;
       if (index === -1) {
-        state.push({ id: action.id, quantity: action.up });
+        state.push({ id: action.id, name: action.name, quantity: action.up });
         newProduct = true;
       }
       return Object.assign(
@@ -114,13 +115,12 @@ export const purchase = (cart) => {
   return { type: 'PURCHASE', cart };
 };
 
-export const quantityUp = (id, val) => {
-  console.log(id);
-  return { type: 'QTY_UP', id, up: val };
+export const quantityUp = (id, name, val) => {
+  return { type: 'QTY_UP', id, name, up: val };
 };
 
-export const quantityDown = (id, val) => {
-  return { type: 'QTY_DOWN', id, down: val };
+export const quantityDown = (id, name, val) => {
+  return { type: 'QTY_DOWN', id, name, down: val };
 };
 
 export const resetCount = () => {
