@@ -208,5 +208,17 @@
     "price":"22/KG",
     "quantity":"500gm",
     "image":"/kohda-kacha.jpeg"
+  },
+  {
+    "name":"Capsicum",
+    "price":"80/KG",
+    "quantity":"500gm",
+    "image":"/capsicum.jpg"
+  },
+  {
+    "name":"Beans",
+    "price":"60/KG",
+    "quantity":"500gm",
+    "image":"/green-beans.jpg"
   }
 ]
