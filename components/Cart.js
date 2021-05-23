@@ -1,5 +1,6 @@
 import { FiShoppingCart } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
+import { formatQuantity } from './Helper';
 
 export default function Cart() {
   const cart = useSelector((state) => state.cart);
@@ -8,11 +9,11 @@ export default function Cart() {
   let whatsAppMsg = '';
   if (cart.length >= 1) {
     cart.forEach((element, index) => {
-      whatsAppMsg += `${index + 1}.${element.name} = *${element.quantity} kg* \n`;
+      let quantity = formatQuantity(element.quantity, element.id);
+      whatsAppMsg += `${index + 1}.${element.name} = *${quantity}* \n`;
     });
   }
   whatsAppMsg = whatsAppMsg.substr(0, whatsAppMsg.length - 1);
-  console.log(encodeURI(whatsAppMsg));
   whatsAppMsg = encodeURI(whatsAppMsg);
   return (
     <>

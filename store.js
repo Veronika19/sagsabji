@@ -22,7 +22,6 @@ export const cart = (state = exampleInitialState, action) => {
   // console.log('actionaction', action);
   switch (action.type) {
     case 'QTY_UP':
-      // console.log('upup', action);
       if (state.length == 0) {
         return [{ ...state, id: action.id, name: action.name, quantity: action.up }];
       }
@@ -43,7 +42,7 @@ export const cart = (state = exampleInitialState, action) => {
       );
     case 'QTY_DOWN':
       const cartList = state.filter((x) => {
-        if (x.id === action.id && x.quantity <= 1) {
+        if (x.id === action.id && x.quantity <= action.down) {
           return false;
         }
         return x;
