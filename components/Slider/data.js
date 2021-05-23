@@ -15,8 +15,8 @@ const people = [
   },
   {
     id: 3,
-    image: '/slider/sag-koinar.jpeg',
-    name: 'sag koinar',
+    image: '/slider/makai-(bhutta).jpeg',
+    name: 'Makai (Bhutta)',
     title: '',
     quote: '',
   },
