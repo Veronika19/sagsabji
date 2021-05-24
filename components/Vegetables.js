@@ -15,8 +15,9 @@ export default function Vegetable() {
           <Image
             itemProp="image"
             alt={each.name}
-            width={300}
-            height={250}
+            width={200}
+            height={150}
+            quality={45}
             className="object-center rounded-2xl w-full h-full block"
             src={each.image}
           />
