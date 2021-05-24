@@ -107,22 +107,22 @@
   {
     "id":16,
     "name":"Lemon",
-    "price":"5/piece",
+    "price":"6/piece",
     "minQuantity":"1",
     "image":"/lemon.jpeg"
   },
   {
     "id":17,
     "name":"Carrot",
-    "price":"28/kg",
-    "minQuantity":"500",
+    "price":"30/kg",
+    "minQuantity":"250",
     "image":"/carrot.jpeg"
   },
   {
     "id":18,
     "name":"Beetroot",
     "price":"42/kg",
-    "minQuantity":"500",
+    "minQuantity":"250",
     "image":"/beetroot.jpg"
   },
   {
@@ -149,15 +149,15 @@
   {
     "id":22,
     "name":"Mango Paka",
-    "price":"50/kg",
+    "price":"78/kg",
     "minQuantity":"500",
     "image":"/mango-pakka.jpeg"
   },
   {
     "id":23,
     "name":"Tarbuz",
-    "price":"15/kg",
-    "minQuantity":"500",
+    "price":"12/kg",
+    "minQuantity":"2000",
     "image":"/tarbuz.jpeg"
   },
   {
@@ -170,7 +170,7 @@
   {
     "id":25,
     "name":"Mirchi",
-    "price":"84/kg",
+    "price":"86/kg",
     "minQuantity":"50",
     "image":"/hari-mirch.jpg"
   },
@@ -178,54 +178,40 @@
     "id":26,
     "name":"Aaloo Lal",
     "price":"20/kg",
-    "minQuantity":"250",
+    "minQuantity":"500",
     "image":"/aaloo-lal.jpeg"
   },
   {
     "id":27,
     "name":"Aaloo Safed",
     "price":"16/kg",
-    "minQuantity":"250",
+    "minQuantity":"500",
     "image":"/aaloo-safed.jpeg"
   },
   {
     "id":28,
     "name":"Pyaz",
     "price":"22/kg",
-    "minQuantity":"250",
+    "minQuantity":"500",
     "image":"/pyaz.jpeg"
   },
   {
     "id":29,
     "name":"Dhania Pata",
     "price":"98/kg",
-    "minQuantity":"250",
+    "minQuantity":"50",
     "image":"/dhania-pata.jpeg"
   },
   {
     "id":30,
     "name":"Pudina Pata",
     "price":"90/kg",
-    "minQuantity":"250",
+    "minQuantity":"50",
     "image":"/pudina-pata.jpeg"
   },
   {
-    "id":31,
-    "name":"Giloy",
-    "price":"98/kg",
-    "minQuantity":"250",
-    "image":"/giloy.jpeg"
-  },
-  {
-    "id":32,
-    "name":"Bel",
-    "price":"6/Piece",
-    "minQuantity":"250",
-    "image":"/bel.jpeg"
-  },
-  {
     "id":33,
-    "name":"Lal Shag",
+    "name":"Lal Saag",
     "price":"24/kg",
     "minQuantity":"500",
     "image":"/organic-red-spinach-lal-saag-original.jpeg"
@@ -234,14 +220,42 @@
     "id":34,
     "name":"Kohda paka",
     "price":"18/kg",
-    "minQuantity":"500",
+    "minQuantity":"1000",
     "image":"/kohda-paka.jpg"
   },
   {
     "id":35,
     "name":"Kohda Kacha",
     "price":"22/kg",
-    "minQuantity":"500",
+    "minQuantity":"1000",
     "image":"/kohda-kacha.jpeg"
+  },
+  {
+    "id":36,
+    "name":"Capsicum",
+    "price":"80/kg",
+    "minQuantity":"250",
+    "image":"/capsicum.jpg"
+  },
+  {
+    "id":37,
+    "name":"Beans",
+    "price":"60/kg",
+    "minQuantity":"250",
+    "image":"/green-beans.jpg"
+  },
+  {
+    "id":31,
+    "name":"Giloy",
+    "price":"98/kg",
+    "minQuantity":"50",
+    "image":"/giloy.jpeg"
+  },
+  {
+    "id":32,
+    "name":"Bel",
+    "price":"6/Piece",
+    "minQuantity":"1",
+    "image":"/bel.jpeg"
   }
 ]
