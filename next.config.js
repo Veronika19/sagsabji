@@ -1,9 +1,6 @@
 module.exports = {
   future: {
-    webpack5: true,
+    webpack5: false,
     strictPostcssConfiguration: true,
-  },
-  images: {
-    domains: ['storage.googleapis.com'],
   },
 };

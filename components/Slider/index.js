@@ -31,7 +31,6 @@ function App() {
     <div className="shadow-2xl mt-1 mb-4 md:mt-8 h-32 md:h-60 bg-white max-w-screen-xl text-center relative flex overflow-hidden section-center">
       {people.map((person, personIndex) => {
         const { id, image, name, title } = person;
-        // console.log(index);
         let position = personIndex === index ? 'activeSlide' : 'nextSlide';
         if (personIndex === index - 1 || (index === 0 && personIndex === people.length - 1)) {
           position = 'lastSlide';

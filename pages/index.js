@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Vegetable from '../components/Vegetables';
 
 import Slider from '../components/Slider';
+import Cart from '../components/Cart';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
             <div className="flex flex-wrap" itemScope itemType="https://schema.org/ItemList">
               <Vegetable />
             </div>
+            <Cart />
           </div>
         </section>
       </main>
