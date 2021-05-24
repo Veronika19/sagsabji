@@ -19,7 +19,7 @@ export default function Cart() {
 
   const sendOrder = (whatsAppMsg) => {
     dispatch(resetCart());
-    window.open(`https://api.whatsapp.com/send?phone=918897433040&text=${whatsAppMsg}`);
+    window.open(`https://api.whatsapp.com/send?phone=919931708803&text=${whatsAppMsg}`);
   };
 
   let cartComp = '';
