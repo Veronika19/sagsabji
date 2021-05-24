@@ -1,13 +1,13 @@
 import { useDispatch } from 'react-redux';
-import { quantityUp, quantityDown, resetCount } from '../store';
+import { quantityUp, quantityDown } from '../store';
 import { useSelector } from 'react-redux';
 import { FiPlusSquare, FiMinusSquare, FiShoppingCart } from 'react-icons/fi';
 import { formatQuantity } from './Helper';
 
 const Counter = ({ id, name, minQuantity }) => {
-  // console.log('======', name);
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
+
   const item = cart.filter((each) => each.id == id);
 
   let addToCart = (

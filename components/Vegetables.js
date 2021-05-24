@@ -34,7 +34,6 @@ export default function Vegetable() {
               <span itemProp="price" content={each.price}>
                 {each.price}
               </span>
-              {/* <span className="text-lg ml-1 font-normal text-gray-500">/{each.quantity}</span> */}
             </p>
           </div>
         </div>

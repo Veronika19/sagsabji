@@ -1,10 +1,11 @@
 import { FiSend } from 'react-icons/fi';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { resetCart } from '../store';
 import { formatQuantity } from './Helper';
 
 export default function Cart() {
+  const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
-  console.count('cart');
 
   let whatsAppMsg = '';
   if (cart.length >= 1) {
@@ -15,6 +16,12 @@ export default function Cart() {
   }
   whatsAppMsg = whatsAppMsg.substr(0, whatsAppMsg.length - 1);
   whatsAppMsg = encodeURI(whatsAppMsg);
+
+  const sendOrder = (whatsAppMsg) => {
+    dispatch(resetCart());
+    window.open(`https://api.whatsapp.com/send?phone=918897433040&text=${whatsAppMsg}`);
+  };
+
   return (
     <>
       {cart.length && (
@@ -23,14 +30,14 @@ export default function Cart() {
             <div className="text-white text-lg ml-2">
               <i>Total added: {cart.length} items</i>
             </div>
-            <button className="px-6 md:px-8 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
-              <a
-                className="flex  flex-row items-center "
-                href={`https://api.whatsapp.com/send?phone=918897433040&text=${whatsAppMsg}`}
-              >
+            <button
+              onClick={() => sendOrder(whatsAppMsg)}
+              className="px-6 md:px-8 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl"
+            >
+              <div className="flex  flex-row items-center">
                 <span className="mr-2">Order</span>
                 <FiSend />
-              </a>
+              </div>
             </button>
           </div>
         </>

@@ -19,7 +19,6 @@ export const actionTypes = {
 // REDUCERS
 
 export const cart = (state = exampleInitialState, action) => {
-  // console.log('actionaction', action);
   switch (action.type) {
     case 'QTY_UP':
       if (state.length == 0) {
@@ -47,7 +46,6 @@ export const cart = (state = exampleInitialState, action) => {
         }
         return x;
       });
-      // console.log(cartList);
       return Object.assign(
         [],
         cartList.map((item) => {
@@ -57,6 +55,8 @@ export const cart = (state = exampleInitialState, action) => {
           return item;
         })
       );
+    case actionTypes.RESET:
+      return [];
     default:
       return state;
   }
@@ -122,7 +122,7 @@ export const quantityDown = (id, name, val) => {
   return { type: 'QTY_DOWN', id, name, down: val };
 };
 
-export const resetCount = () => {
+export const resetCart = () => {
   return { type: actionTypes.RESET };
 };
 
