@@ -245,6 +245,13 @@
     "image":"/green-beans.jpg"
   },
   {
+    "id":33,
+    "name":"Makai(Bhutta)",
+    "price":"25/kg",
+    "minQuantity":"500",
+    "image":"makai-(bhutta).jpeg"
+  },
+  {
     "id":31,
     "name":"Giloy",
     "price":"98/kg",
