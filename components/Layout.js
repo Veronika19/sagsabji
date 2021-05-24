@@ -7,15 +7,18 @@ export default function Layout(props) {
 
       <main>
         {props.children}
-        <footer className="flex items-center justify-center w-full h-24 border-t">
-          <a
-            className="flex items-center justify-center"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by Sabji Wala
-          </a>
+        <footer className="flex items-center justify-center w-full h-14 border-t">
+          <p className="flex items-center justify-center">
+            Designed and Developed by&nbsp;
+            <a
+              className="text-red-800 font-bold"
+              href="tel:9555199044"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pankaj
+            </a>
+          </p>
         </footer>
       </main>
     </div>
