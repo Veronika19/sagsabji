@@ -2,7 +2,7 @@
   {
     "id":1,
     "name":"Bhindi",
-    "price":"27/kg",
+    "price":"26/kg",
     "minQuantity":"500",
     "image":"/bhindi.jpg"
   },
@@ -30,7 +30,7 @@
   {
     "id":5,
     "name":"Karela",
-    "price":"36/kg",
+    "price":"34/kg",
     "minQuantity":"250",
     "image":"/karela.jpeg"
   },
@@ -51,7 +51,7 @@
   {
     "id":8,
     "name":"Kheera",
-    "price":"21/kg",
+    "price":"20/kg",
     "minQuantity":"500",
     "image":"/kheera.jpeg"
   },
@@ -121,7 +121,7 @@
   {
     "id":18,
     "name":"Beetroot",
-    "price":"42/kg",
+    "price":"40/kg",
     "minQuantity":"250",
     "image":"/beetroot.jpg"
   },
@@ -142,7 +142,7 @@
   {
     "id":21,
     "name":"Mango Kacha",
-    "price":"28/kg",
+    "price":"26/kg",
     "minQuantity":"500",
     "image":"/mango-kacha.jpeg"
   },
