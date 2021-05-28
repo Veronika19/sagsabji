@@ -86,7 +86,7 @@
   {
     "id":13,
     "name":"Patal",
-    "price":"30/kg",
+    "price":"40/kg",
     "minQuantity":"500",
     "image":"/patal.jpeg"
   },
@@ -191,7 +191,7 @@
   {
     "id":28,
     "name":"Pyaz",
-    "price":"22/kg",
+    "price":"24/kg",
     "minQuantity":"500",
     "image":"/pyaz.jpeg"
   },
