@@ -8,6 +8,7 @@ export default class MyDocument extends Document {
       <Html lang="en" className="notranslate" translate="no">
         <Head>
           <meta name="google" content="notranslate" />
+          <meta name="facebook-domain-verification" content="j6g5w1uxgq631ms7nf932m3enbga1x" />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script
