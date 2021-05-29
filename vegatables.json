@@ -107,7 +107,7 @@
   {
     "id":16,
     "name":"Lemon",
-    "price":"6/piece",
+    "price":"5/piece",
     "minQuantity":"1",
     "image":"/lemon.jpeg"
   },
@@ -128,14 +128,14 @@
   {
     "id":19,
     "name":"Papita Paka",
-    "price":"30/kg",
+    "price":"40/kg",
     "minQuantity":"500",
     "image":"/papita-paka.jpeg"
   },
   {
     "id":20,
     "name":"Papita Kacha",
-    "price":"20/kg",
+    "price":"30/kg",
     "minQuantity":"500",
     "image":"/papita-kacha.jpeg"
   },
@@ -254,7 +254,7 @@
   {
     "id":31,
     "name":"Giloy",
-    "price":"98/kg",
+    "price":"90/kg",
     "minQuantity":"50",
     "image":"/giloy.jpeg"
   },
