@@ -29,10 +29,10 @@ function App() {
 
   return (
     <div className="shadow-2xl mt-1 mb-4 md:mt-8 h-32 md:h-60 bg-white max-w-screen-xl text-center relative flex overflow-hidden section-center">
-      {people.map((person, personIndex) => {
-        const { id, image, name, title } = person;
-        let position = personIndex === index ? 'activeSlide' : 'nextSlide';
-        if (personIndex === index - 1 || (index === 0 && personIndex === people.length - 1)) {
+      {people.map((item, itemIndex) => {
+        const { id, image, name, price } = item;
+        let position = itemIndex === index ? 'activeSlide' : 'nextSlide';
+        if (itemIndex === index - 1 || (index === 0 && itemIndex === people.length - 1)) {
           position = 'lastSlide';
         }
         return (
@@ -47,15 +47,13 @@ function App() {
               />
             </div>
             <div className="-ml-6 md:-ml-10 lg:flex-grow w-3/5 md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="-mt-2 title-font sm:text-4xl md:text-3xl text-base capitalize mb-4 font-medium text-green-700">
+              <h1 className="-mt-2 title-font md:text-3xl text-base capitalize mb-1 font-medium text-green-700">
                 {name}
                 <br className="inline-block" />
-                {title}
+                {price}
               </h1>
 
-              {/* <p className="hidden md:block mb-8 leading-relaxed">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant
-              </p> */}
+              {/* <p className="mb-8 leading-relaxed">Copper mug try-hard</p>*/}
             </div>
           </article>
         );

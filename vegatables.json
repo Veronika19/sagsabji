@@ -149,9 +149,16 @@
   {
     "id":22,
     "name":"Mango Paka",
-    "price":"78/kg",
+    "price":"60/kg",
     "minQuantity":"500",
     "image":"/mango-pakka.jpeg"
+  },
+  {
+    "id":39,
+    "name":"Organic Banganapali",
+    "price":"55/kg",
+    "minQuantity":"500",
+    "image":"/organic-banganapalli.jpeg"
   },
   {
     "id":23,
@@ -249,7 +256,7 @@
     "name":"Makai(Bhutta)",
     "price":"25/kg",
     "minQuantity":"500",
-    "image":"makai-(bhutta).jpeg"
+    "image":"/makai-(bhutta).jpeg"
   },
   {
     "id":31,
