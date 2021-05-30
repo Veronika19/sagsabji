@@ -1,12 +1,5 @@
 const people = [
   {
-    id: 1,
-    image: '/slider/mango-gulab-khas.jpeg',
-    name: 'mango gulab khas',
-    price: '',
-    quote: '',
-  },
-  {
     id: 2,
     image: '/slider/mango-langda.jpeg',
     name: 'mango langda',
