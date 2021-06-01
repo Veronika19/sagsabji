@@ -23,7 +23,7 @@
   {
     "id":4,
     "name":"Tomato",
-    "price":"20/kg",
+    "price":"27/kg",
     "minQuantity":"500",
     "image":"/tomato.jpeg"
   },
@@ -72,7 +72,7 @@
   {
     "id":11,
     "name":"Baigan",
-    "price":"28/kg",
+    "price":"30/kg",
     "minQuantity":"500",
     "image":"/baigan.jpg"
   },
@@ -163,7 +163,7 @@
   {
     "id":23,
     "name":"Tarbuz",
-    "price":"12/kg",
+    "price":"10/kg",
     "minQuantity":"2000",
     "image":"/tarbuz.jpeg"
   },
@@ -198,14 +198,14 @@
   {
     "id":28,
     "name":"Pyaz",
-    "price":"24/kg",
+    "price":"30/kg",
     "minQuantity":"500",
     "image":"/pyaz.jpeg"
   },
   {
     "id":29,
     "name":"Dhania Pata",
-    "price":"98/kg",
+    "price":"150/kg",
     "minQuantity":"50",
     "image":"/dhania-pata.jpeg"
   },
@@ -240,7 +240,7 @@
   {
     "id":36,
     "name":"Capsicum",
-    "price":"80/kg",
+    "price":"95/kg",
     "minQuantity":"250",
     "image":"/capsicum.jpg"
   },
