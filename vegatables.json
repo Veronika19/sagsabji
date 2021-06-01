@@ -65,14 +65,14 @@
   {
     "id":10,
     "name":"Gobi Patta",
-    "price":"20/kg",
+    "price":"30/kg",
     "minQuantity":"500",
     "image":"/patta-gobi.jpeg"
   },
   {
     "id":11,
     "name":"Baigan",
-    "price":"30/kg",
+    "price":"38/kg",
     "minQuantity":"500",
     "image":"/baigan.jpg"
   },
