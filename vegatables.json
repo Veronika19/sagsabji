@@ -2,7 +2,7 @@
   {
     "id":1,
     "name":"Bhindi",
-    "price":"26/kg",
+    "price":"24/kg",
     "minQuantity":"500",
     "image":"/bhindi.jpg"
   },
@@ -23,7 +23,7 @@
   {
     "id":4,
     "name":"Tomato",
-    "price":"27/kg",
+    "price":"29/kg",
     "minQuantity":"500",
     "image":"/tomato.jpeg"
   },
@@ -51,14 +51,14 @@
   {
     "id":8,
     "name":"Kheera",
-    "price":"20/kg",
+    "price":"26/kg",
     "minQuantity":"500",
     "image":"/kheera.jpeg"
   },
   {
     "id":9,
     "name":"Gobi Full",
-    "price":"40/kg",
+    "price":"46/kg",
     "minQuantity":"500",
     "image":"/ful-gobi.jpeg"
   },
@@ -114,7 +114,7 @@
   {
     "id":17,
     "name":"Carrot",
-    "price":"30/kg",
+    "price":"45/kg",
     "minQuantity":"250",
     "image":"/carrot.jpeg"
   },
@@ -198,7 +198,7 @@
   {
     "id":28,
     "name":"Pyaz",
-    "price":"30/kg",
+    "price":"28/kg",
     "minQuantity":"500",
     "image":"/pyaz.jpeg"
   },
