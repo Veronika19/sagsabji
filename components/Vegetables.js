@@ -2,8 +2,9 @@ import List from '../vegatables.json';
 import Image from 'next/image';
 import Counter from './Counter';
 
-export default function Vegetable() {
-  const vegList = List.map((each, index) => {
+export default function Vegetable({ products }) {
+  console.log(products);
+  const vegList = products.map((each, index) => {
     return (
       <div
         key={each.id}

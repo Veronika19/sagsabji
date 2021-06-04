@@ -3,8 +3,9 @@ import Vegetable from '../components/Vegetables';
 
 import Slider from '../components/Slider';
 import Cart from '../components/Cart';
+const apiPath = process.env.API_URL;
 
-export default function Home() {
+export default function Home({ products }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
@@ -29,7 +30,7 @@ export default function Home() {
             </h1>
             <Slider />
             <div className="flex flex-wrap" itemScope itemType="https://schema.org/ItemList">
-              <Vegetable />
+              <Vegetable products={products} />
             </div>
             <Cart />
           </div>
@@ -38,3 +39,21 @@ export default function Home() {
     </div>
   );
 }
+
+export async function getStaticProps() {
+  const res = await fetch(`https://svmaster.herokuapp.com/open-api/product/get-all`);
+  const posts = await res.json();
+  return {
+    props: { products: posts },
+    revalidate: 1, //in case any new product is added in db
+  };
+}
+
+// export async function getServerSideProps() {
+//   const res = await fetch(`${apiPath}/open-api/product/get-all`);
+//   const posts = await res.json();
+//   console.log(posts);
+//   return {
+//     props: { products: posts },
+//   };
+// }
