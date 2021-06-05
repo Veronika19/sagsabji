@@ -41,19 +41,10 @@ export default function Home({ products }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`https://svmaster.herokuapp.com/open-api/product/get-all`);
+  const res = await fetch(`${apiPath}/open-api/product/get-all`);
   const posts = await res.json();
   return {
     props: { products: posts },
     revalidate: 1, //in case any new product is added in db
   };
 }
-
-// export async function getServerSideProps() {
-//   const res = await fetch(`${apiPath}/open-api/product/get-all`);
-//   const posts = await res.json();
-//   console.log(posts);
-//   return {
-//     props: { products: posts },
-//   };
-// }
