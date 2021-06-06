@@ -1,9 +1,9 @@
-import List from '../vegatables.json';
+// import List from '../vegatables.json';
 import Image from 'next/image';
 import Counter from './Counter';
 
-export default function Vegetable() {
-  const vegList = List.map((each, index) => {
+export default function Vegetable({ lists }) {
+  const vegList = lists.map((each, index) => {
     return (
       <div
         key={each.id}
@@ -22,7 +22,7 @@ export default function Vegetable() {
             src={each.image}
           />
         </a>
-        <div className="flex flex-col bg-yellow-400 rounded-tl-2xl rounded-tr-2xl">
+        <div className="flex flex-col bg-yellow-500 rounded-tl-2xl rounded-tr-2xl">
           <Counter {...each} />
           <div className="flex justify-around text-base">
             <h2 className="text-gray-900 title-font font-bold" itemProp="name">
@@ -42,5 +42,5 @@ export default function Vegetable() {
     );
   });
 
-  return <>{List && vegList}</>;
+  return <>{vegList}</>;
 }

@@ -3,6 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .set_prod_type_btn {
+    @apply font-bold text-green-700  bg-yellow-500 py-1 px-10 rounded;
+  }
+
+  .set_prod_type_btn_active {
+    @apply font-bold text-yellow-500  bg-green-700 py-1 px-10 rounded;
+  }
+}
+
 .prev,
 .next {
   position: absolute;
