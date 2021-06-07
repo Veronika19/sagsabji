@@ -259,6 +259,13 @@
     "image":"/makai-(bhutta).jpeg"
   },
   {
+    "id":50,
+    "name":"Kundri",
+    "price":"30/kg",
+    "minQuantity":"500",
+    "image":"/kundri.jpg"
+  },
+  {
     "id":31,
     "name":"Giloy",
     "price":"90/kg",
