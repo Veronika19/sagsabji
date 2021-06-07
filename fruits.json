@@ -8,7 +8,7 @@
   },
   {
     "id":40,
-    "name":"Langda",
+    "name":"Mango Langda",
     "price":"59/kg",
     "minQuantity":"500",
     "image":"/Langda.jpg"
@@ -25,7 +25,7 @@
     "name":"Fuji",
     "price":"230/kg",
     "minQuantity":"500",
-    "image":"/Fuji.jpg"
+    "image":"/fuji.jpg"
   },
   {
     "id":43,
@@ -60,7 +60,7 @@
     "name":"Orange Malta",
     "price":"120/kg",
     "minQuantity":"500",
-    "image":"/Mosambi.jpg"
+    "image":"/Orange Malta.jpg"
   },
   {
     "id":48,
@@ -79,7 +79,7 @@
   {
     "id":50,
     "name":"Kiwi Fruit",
-    "price":"220/3Piece",
+    "price":"120/3Piece",
     "minQuantity":"3",
     "image":"/Kiwi-Fruit.webp"
   }

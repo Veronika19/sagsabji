@@ -22,7 +22,7 @@ export default function Vegetable({ lists }) {
             src={each.image}
           />
         </a>
-        <div className="flex flex-col bg-yellow-500 rounded-tl-2xl rounded-tr-2xl">
+        <div className="flex flex-col bg-yellow-400 rounded-tl-2xl rounded-tr-2xl">
           <Counter {...each} />
           <div className="flex justify-around text-base">
             <h2 className="text-gray-900 title-font font-bold" itemProp="name">

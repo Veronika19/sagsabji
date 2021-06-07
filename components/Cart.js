@@ -31,7 +31,7 @@ export default function Cart() {
         </div>
         <button
           onClick={() => sendOrder(whatsAppMsg)}
-          className="px-6 md:px-8 text-lg bg-green-700 text-yellow-500 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl"
+          className="px-6 md:px-8 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl"
         >
           <div className="flex  flex-row items-center">
             <span className="mr-2">Order</span>

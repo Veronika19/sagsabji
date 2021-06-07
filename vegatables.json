@@ -2,7 +2,7 @@
   {
     "id":1,
     "name":"Bhindi",
-    "price":"24/kg",
+    "price":"30/kg",
     "minQuantity":"500",
     "image":"/bhindi.jpg"
   },
@@ -16,7 +16,7 @@
   {
     "id":3,
     "name":"Nenua",
-    "price":"20/kg",
+    "price":"32/kg",
     "minQuantity":"500",
     "image":"/nenua.jpeg"
   },
@@ -44,14 +44,14 @@
   {
     "id":7,
     "name":"Lauki",
-    "price":"22/kg",
+    "price":"35/kg",
     "minQuantity":"500",
     "image":"/lauki.jpeg"
   },
   {
     "id":8,
     "name":"Kheera",
-    "price":"26/kg",
+    "price":"29/kg",
     "minQuantity":"500",
     "image":"/kheera.jpeg"
   },
@@ -257,6 +257,13 @@
     "price":"25/kg",
     "minQuantity":"500",
     "image":"/makai-(bhutta).jpeg"
+  },
+  {
+    "id":51,
+    "name":"Kundri",
+    "price":"30/kg",
+    "minQuantity":"500",
+    "image":"/kundri.jpg"
   },
   {
     "id":31,
