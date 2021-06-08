@@ -1,23 +1,23 @@
 const people = [
   {
     id: 2,
-    image: '/slider/mango-langda.jpeg',
+    image: '/Langda.jpg',
     name: 'mango langda',
-    price: '',
+    price: 'Rs. 59/kg',
     quote: '',
   },
   {
     id: 3,
-    image: '/slider/makai-(bhutta).jpeg',
-    name: 'Makai (Bhutta)',
-    price: '',
+    image: '/Apple Washington.jpg',
+    name: 'Apple Washington',
+    price: 'Rs. 230/kg',
     quote: '',
   },
   {
     id: 4,
-    image: '/organic-banganapalli.jpeg',
-    name: 'Organic Banganapali',
-    price: 'Rs. 55/kg',
+    image: '/Tender Coconut.jpg',
+    name: 'Tender Coconut',
+    price: 'Rs. 45/Piece',
     quote: '',
   },
 ];

@@ -1,10 +1,15 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Vegetable from '../components/Vegetables';
 
+import Vegetables from '../vegatables.json';
+import Fruit from '../fruits.json';
 import Slider from '../components/Slider';
 import Cart from '../components/Cart';
 
 export default function Home() {
+  const [prodType, setProdType] = useState(Vegetables);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
@@ -28,8 +33,24 @@ export default function Home() {
               </a>
             </h1>
             <Slider />
+            <div className="flex flex-wrap justify-evenly mb-4 text-lg">
+              <button
+                onClick={() => setProdType(Vegetables)}
+                className={
+                  prodType == Vegetables ? 'set_prod_type_btn_active' : 'set_prod_type_btn'
+                }
+              >
+                Vegetables
+              </button>
+              <button
+                onClick={() => setProdType(Fruit)}
+                className={prodType == Fruit ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
+              >
+                Fruits
+              </button>
+            </div>
             <div className="flex flex-wrap" itemScope itemType="https://schema.org/ItemList">
-              <Vegetable />
+              <Vegetable lists={prodType} />
             </div>
             <Cart />
           </div>

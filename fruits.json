@@ -1,0 +1,86 @@
+[
+  {
+    "id":39,
+    "name":"Mango Dasheri",
+    "price":"59/kg",
+    "minQuantity":"500",
+    "image":"/Mango Dasheri.jpg"
+  },
+  {
+    "id":40,
+    "name":"Mango Langda",
+    "price":"59/kg",
+    "minQuantity":"500",
+    "image":"/Langda.jpg"
+  },
+  {
+    "id":41,
+    "name":"Apple Washington",
+    "price":"230/kg",
+    "minQuantity":"500",
+    "image":"/Apple Washington.jpg"
+  },
+  {
+    "id":42,
+    "name":"Fuji",
+    "price":"230/kg",
+    "minQuantity":"500",
+    "image":"/Fuji-fruit.jpg"
+  },
+  {
+    "id":43,
+    "name":"Green Apple",
+    "price":"325/kg",
+    "minQuantity":"500",
+    "image":"/Green Apple.jpg"
+  },
+  {
+    "id":44,
+    "name":"Pomegranate",
+    "price":"130/kg",
+    "minQuantity":"500",
+    "image":"/Pomegranate.jpg"
+  },
+  {
+    "id":45,
+    "name":"Banana Singapuri",
+    "price":"6/Piece",
+    "minQuantity":"1",
+    "image":"/Banana Singapuri.jpg"
+  },
+  {
+    "id":46,
+    "name":"Chinia",
+    "price":"6/Piece",
+    "minQuantity":"1",
+    "image":"/Chinia.jpg"
+  },
+  {
+    "id":47,
+    "name":"Orange Malta",
+    "price":"120/kg",
+    "minQuantity":"500",
+    "image":"/Orange Malta.jpg"
+  },
+  {
+    "id":48,
+    "name":"Mosambi",
+    "price":"110/kg",
+    "minQuantity":"500",
+    "image":"/Mosambi.jpg"
+  },
+  {
+    "id":49,
+    "name":"Tender Coconut",
+    "price":"45/Piece",
+    "minQuantity":"1",
+    "image":"/Tender Coconut.jpg"
+  },
+  {
+    "id":50,
+    "name":"Kiwi Fruit",
+    "price":"120/3Piece",
+    "minQuantity":"3",
+    "image":"/Kiwi-Fruit.webp"
+  }
+]
