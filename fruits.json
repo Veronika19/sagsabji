@@ -4,83 +4,95 @@
     "name":"Mango Dasheri",
     "price":"59/kg",
     "minQuantity":"500",
-    "image":"/Mango Dasheri.jpg"
+    "image":"/Mango Dasheri.jpg",
+    "status": 1
   },
   {
     "id":40,
     "name":"Mango Langda",
     "price":"59/kg",
     "minQuantity":"500",
-    "image":"/Langda.jpg"
+    "image":"/Langda.jpg",
+    "status": 1
   },
   {
     "id":41,
     "name":"Apple Washington",
     "price":"230/kg",
     "minQuantity":"500",
-    "image":"/Apple Washington.jpg"
+    "image":"/Apple Washington.jpg",
+    "status": 1
   },
   {
     "id":42,
     "name":"Fuji",
     "price":"230/kg",
     "minQuantity":"500",
-    "image":"/Fuji-fruit.jpg"
+    "image":"/Fuji-fruit.jpg",
+    "status": 1
   },
   {
     "id":43,
     "name":"Green Apple",
     "price":"325/kg",
     "minQuantity":"500",
-    "image":"/Green Apple.jpg"
+    "image":"/Green Apple.jpg",
+    "status": 1
   },
   {
     "id":44,
     "name":"Pomegranate",
     "price":"130/kg",
     "minQuantity":"500",
-    "image":"/Pomegranate.jpg"
+    "image":"/Pomegranate.jpg",
+    "status": 1
   },
   {
     "id":45,
     "name":"Banana Singapuri",
     "price":"6/Piece",
     "minQuantity":"1",
-    "image":"/Banana Singapuri.jpg"
+    "image":"/Banana Singapuri.jpg",
+    "status": 1
   },
   {
     "id":46,
     "name":"Chinia",
     "price":"6/Piece",
     "minQuantity":"1",
-    "image":"/Chinia.jpg"
+    "image":"/Chinia.jpg",
+    "status": 1
   },
   {
     "id":47,
     "name":"Orange Malta",
     "price":"120/kg",
     "minQuantity":"500",
-    "image":"/Orange Malta.jpg"
+    "image":"/Orange Malta.jpg",
+    "status": 1
   },
   {
     "id":48,
     "name":"Mosambi",
     "price":"110/kg",
     "minQuantity":"500",
-    "image":"/Mosambi.jpg"
+    "image":"/Mosambi.jpg",
+    "status": 1
   },
   {
     "id":49,
     "name":"Tender Coconut",
     "price":"45/Piece",
     "minQuantity":"1",
-    "image":"/Tender Coconut.jpg"
+    "image":"/Tender Coconut.jpg",
+    "status": 1
   },
   {
     "id":50,
     "name":"Kiwi Fruit",
     "price":"120/3Piece",
     "minQuantity":"3",
-    "image":"/Kiwi-Fruit.webp"
+    "image":"/Kiwi-Fruit.webp",
+    "status": 1
   }
 ]
