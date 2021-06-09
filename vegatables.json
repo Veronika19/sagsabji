@@ -165,7 +165,7 @@
      "price": "26/kg",
      "minQuantity": "500",
      "image": "/mango-kacha.jpeg",
-     "status": 1
+     "status": 0
   },
   {
      "id": 22,
@@ -173,7 +173,7 @@
      "price": "60/kg",
      "minQuantity": "500",
      "image": "/mango-pakka.jpeg",
-     "status": 1
+     "status": 0
   },
   {
      "id": 39,
@@ -181,7 +181,7 @@
      "price": "55/kg",
      "minQuantity": "500",
      "image": "/organic-banganapalli.jpeg",
-     "status": 1
+     "status": 0
   },
   {
      "id": 23,
