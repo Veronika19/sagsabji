@@ -83,7 +83,7 @@
      "id": 11,
      "name": "Baigan",
      "price": "38/kg",
-     "minQuantity ": "500",
+     "minQuantity": "500",
      "image": "/baigan.jpg",
      "status": 1
   },
