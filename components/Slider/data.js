@@ -8,9 +8,9 @@ const people = [
   },
   {
     id: 3,
-    image: '/Apple Washington.jpg',
-    name: 'Apple Washington',
-    price: 'Rs. 230/kg',
+    image: '/Apple-Gala.jpg',
+    name: 'Apple Gala',
+    price: 'Rs. 235/kg',
     quote: '',
   },
   {
