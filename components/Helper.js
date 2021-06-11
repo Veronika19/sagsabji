@@ -4,5 +4,8 @@ export const formatQuantity = (quantity, id) => {
   if ([16, 32, 45, 46, 49, 50].includes(id)) {
     formatedQty = `${quantity} piece`;
   }
+  if ([45, 46].includes(id)) {
+    formatedQty = `${quantity} dozen`;
+  }
   return formatedQty;
 };

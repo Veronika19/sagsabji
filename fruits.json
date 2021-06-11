@@ -17,10 +17,10 @@
   },
   {
     "id":41,
-    "name":"Apple Washington",
-    "price":"230/kg",
+    "name":"Apple Gala",
+    "price":"235/kg",
     "minQuantity":"500",
-    "image":"/Apple Washington.jpg",
+    "image":"/Apple-Gala.jpg",
     "status": 1
   },
   {
@@ -50,16 +50,16 @@
   {
     "id":45,
     "name":"Banana Singapuri",
-    "price":"6/Piece",
-    "minQuantity":"1",
+    "price":"40/Dozen",
+    "minQuantity":"0.5",
     "image":"/Banana Singapuri.jpg",
     "status": 1
   },
   {
     "id":46,
     "name":"Chinia",
-    "price":"6/Piece",
-    "minQuantity":"1",
+    "price":"60/Dozen",
+    "minQuantity":"0.5",
     "image":"/Chinia.jpg",
     "status": 1
   },
