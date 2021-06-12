@@ -8,8 +8,8 @@ import Slider from '../components/Slider';
 import Cart from '../components/Cart';
 const apiPath = process.env.API_URL;
 
-export default function Home() {
-  const [prodType, setProdType] = useState(Vegetables);
+export default function Home({ vegetables, fruits }) {
+  const [prodType, setProdType] = useState(vegetables);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
@@ -36,16 +36,16 @@ export default function Home() {
             <Slider />
             <div className="flex flex-wrap justify-evenly mb-4 text-lg">
               <button
-                onClick={() => setProdType(Vegetables)}
+                onClick={() => setProdType(vegetables)}
                 className={
-                  prodType == Vegetables ? 'set_prod_type_btn_active' : 'set_prod_type_btn'
+                  prodType == vegetables ? 'set_prod_type_btn_active' : 'set_prod_type_btn'
                 }
               >
                 Vegetables
               </button>
               <button
-                onClick={() => setProdType(Fruit)}
-                className={prodType == Fruit ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
+                onClick={() => setProdType(fruits)}
+                className={prodType == fruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Fruits
               </button>
@@ -63,9 +63,12 @@ export default function Home() {
 
 export async function getStaticProps() {
   const res = await fetch(`${apiPath}/open-api/product/get-all`);
-  const posts = await res.json();
+  const products = await res.json();
+  const vegetables = products.filter((each) => each.categoryId === 1);
+  const fruits = products.filter((each) => each.categoryId === 2);
+  console.log(fruits);
   return {
-    props: { products: posts },
+    props: { fruits, vegetables },
     revalidate: 1, //in case any new product is added in db
   };
 }

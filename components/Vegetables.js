@@ -4,7 +4,7 @@ import Counter from './Counter';
 
 export default function Vegetable({ lists }) {
   const vegList = lists.map((each, index) => {
-    if (each.status === 1) {
+    if (each.status === '1') {
       return (
         <div
           key={each.id}
