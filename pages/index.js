@@ -6,6 +6,7 @@ import Vegetables from '../vegatables.json';
 import Fruit from '../fruits.json';
 import Slider from '../components/Slider';
 import Cart from '../components/Cart';
+const apiPath = process.env.API_URL;
 
 export default function Home() {
   const [prodType, setProdType] = useState(Vegetables);
@@ -58,4 +59,13 @@ export default function Home() {
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`${apiPath}/open-api/product/get-all`);
+  const posts = await res.json();
+  return {
+    props: { products: posts },
+    revalidate: 1, //in case any new product is added in db
+  };
 }

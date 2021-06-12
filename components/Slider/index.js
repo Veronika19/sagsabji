@@ -60,13 +60,13 @@ function App() {
       })}
       <button
         onClick={() => setPrev()}
-        className="top-16 md:top-32 prev bg-yellow-400 text-green-700 rounded-sm"
+        className="top-16 md:top-32 prev bg-yellow-500 text-green-700 rounded-sm"
       >
         <FiChevronLeft />
       </button>
       <button
         onClick={() => setNext()}
-        className="top-16 md:top-32 next bg-yellow-400 text-green-700 rounded-sm"
+        className="top-16 md:top-32 next bg-yellow-500 text-green-700 rounded-sm"
       >
         <FiChevronRight />
       </button>
