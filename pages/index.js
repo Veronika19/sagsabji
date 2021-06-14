@@ -66,7 +66,7 @@ export async function getStaticProps() {
   const products = await res.json();
   const vegetables = products.filter((each) => each.categoryId === 1);
   const fruits = products.filter((each) => each.categoryId === 2);
-  console.log(fruits);
+  // console.log(fruits);
   return {
     props: { fruits, vegetables },
     revalidate: 1, //in case any new product is added in db
