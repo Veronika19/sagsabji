@@ -348,7 +348,7 @@
    "name": "Satputia",
    "price": "Rs 38/kg",
    "minQuantity": "500",
-   "image": "/satputia.jpeg",
+   "image": "/satputia.jpg",
    "status": 1
 },
 {
@@ -356,7 +356,7 @@
    "name": "Kaksha",
    "price": "Rs 60/kg",
    "minQuantity": "500",
-   "image": "/kaksha.jpg",
+   "image": "/kaksha.jpeg",
    "status": 1
 },
 {
