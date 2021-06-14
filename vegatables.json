@@ -342,5 +342,29 @@
      "minQuantity": "1",
      "image": "/bel.jpeg",
      "status": 0
-  }
+  },
+  {
+   "id": 55,
+   "name": "Satputia",
+   "price": "Rs 38/kg",
+   "minQuantity": "500",
+   "image": "/satputia.jpeg",
+   "status": 1
+},
+{
+   "id": 56,
+   "name": "Kaksha",
+   "price": "Rs 60/kg",
+   "minQuantity": "500",
+   "image": "/kaksha.jpg",
+   "status": 1
+},
+{
+   "id": 57,
+   "name": "Mushroom",
+   "price": "",
+   "minQuantity": "500",
+   "image": "/mushroom.jpeg",
+   "status": 1
+},
 ]
