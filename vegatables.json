@@ -2,7 +2,7 @@
   {
      "id": 1,
      "name": "Bhindi",
-     "price": "30/kg",
+     "price": "24/kg",
      "minQuantity": "500",
      "image": "/bhindi.jpg",
      "status": 1
@@ -34,7 +34,7 @@
   {
      "id": 5,
      "name": "Karela",
-     "price": "34/kg",
+     "price": "38/kg",
      "minQuantity": "250",
      "image": "/karela.jpeg",
      "status": 1
@@ -42,7 +42,7 @@
   {
      "id": 6,
      "name": "Bodi",
-     "price": "3 8/kg",
+     "price": "38/kg",
      "minQuantity": "250",
      "image": "/bodi.jpeg",
      "status": 1
@@ -50,7 +50,7 @@
   {
      "id": 7,
      "name": "Lauki",
-     "price": "35/kg",
+     "price": "30/kg",
      "minQuantity": "500",
      "image": "/lauki.jpeg",
      "status": 1
@@ -58,7 +58,7 @@
   {
      "id": 8,
      "name": " Kheera",
-     "price": "29/kg",
+     "price": "54/kg",
      "minQuantity": "500",
      "image": "/kheera.jpeg",
      "status": 1
@@ -66,7 +66,7 @@
   {
      "id": 9,
      "name": "Gobi Full",
-     "price": "46/kg",
+     "price": "56/kg",
      "minQuantity": "500",
      "image": "/ful-gobi.jpeg",
      "status": 1
@@ -74,7 +74,7 @@
   {
      "id": 10,
      "name": "Gobi Patta",
-     "price": "30/kg",
+     "price": "40/kg",
      "minQuantity": "500",
      "image": "/patta-gobi.jpeg",
      "status": 1
@@ -82,7 +82,7 @@
   {
      "id": 11,
      "name": "Baigan",
-     "price": "38/kg",
+     "price": "40/kg",
      "minQuantity": "500",
      "image": "/baigan.jpg",
      "status": 1
@@ -306,7 +306,7 @@
   {
    "id": 52,
    "name": "Kachu (Arbi)",
-   "price": "38/kg",
+   "price": "30/kg",
    "minQuantity": "500",
    "image": "/kachu.jpeg",
    "status": 1
