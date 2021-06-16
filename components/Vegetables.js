@@ -1,6 +1,7 @@
 // import List from '../vegatables.json';
 import Image from 'next/image';
 import Counter from './Counter';
+import isEmpty from '../utils/is-empty';
 
 export default function Vegetable({ lists }) {
   const vegList = lists.map((each, index) => {
@@ -29,14 +30,18 @@ export default function Vegetable({ lists }) {
               <h2 className="text-gray-900 title-font font-bold" itemProp="name">
                 {each.name}
               </h2>
-              <p className="font-medium text-green-800">
-                <span itemProp="priceCurrency" content="Indian rupee">
-                  Rs.
-                </span>
-                <span itemProp="price" content={each.price}>
-                  {each.price}
-                </span>
-              </p>
+              {isEmpty(each.price) ? (
+                <p></p>
+              ) : (
+                <p className="font-medium text-green-800">
+                  <span itemProp="priceCurrency" content="Indian rupee">
+                    Rs.
+                  </span>
+                  <span itemProp="price" content={each.price}>
+                    {each.price}
+                  </span>
+                </p>
+              )}
             </div>
           </div>
         </div>
