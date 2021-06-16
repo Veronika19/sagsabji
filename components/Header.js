@@ -2,9 +2,9 @@ export default function Header() {
   return (
     <div className="2xl:mx-auto 2xl:container xl:px-0 bg-yellow-400">
       <header className="text-gray-600 body-font">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center font-medium">
+        <div className="container mx-auto flex flex-wrap p-1 md:p-3 flex-col md:flex-row items-center font-medium">
           <a className="flex md:w-1/2 flex-wrap order-first lg:order-none title-font items-center justify-center text-green-700 lg:items-center lg:justify-center">
-            <span className="text-4xl tracking-widest font-bold" itemProp="name">
+            <span className="text-3xl tracking-widest font-bold" itemProp="name">
               Sag SabjiWale
             </span>
           </a>

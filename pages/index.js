@@ -31,6 +31,9 @@ export default function Home() {
               <a href="tel:08271700921" itemProp="telephone" className="underline">
                 08271700921
               </a>
+              <p className="bg-red-300 text-xs">
+                Note: Price may vary as per market &#38; availability
+              </p>
             </h1>
             <Slider />
             <div className="flex flex-wrap justify-evenly mb-4 text-lg">
