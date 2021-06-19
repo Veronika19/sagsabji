@@ -266,7 +266,7 @@
   {
      "id": 35,
      "name": "Kohda Kacha",
-     "price": "22/k g",
+     "price": "22/kg",
      "minQuantity": "1000",
      "image": "/kohda-kacha.jpeg",
      "status": 1
@@ -346,7 +346,7 @@
   {
    "id": 55,
    "name": "Satputia",
-   "price": "Rs 38/kg",
+   "price": "38/kg",
    "minQuantity": "500",
    "image": "/satputia.jpg",
    "status": 1
@@ -354,7 +354,7 @@
 {
    "id": 56,
    "name": "Kaksha",
-   "price": "Rs 60/kg",
+   "price": "60/kg",
    "minQuantity": "500",
    "image": "/kaksha.jpeg",
    "status": 1
