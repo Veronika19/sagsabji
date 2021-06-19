@@ -176,7 +176,7 @@
      "status": 0
   },
   {
-     "id": 39,
+     "id": 58,
      "name": "Organic Banganapali",
      "price": "55/kg",
      "minQuantity": "500",
@@ -304,12 +304,12 @@
      "status": 1
   },
   {
-   "id": 52,
-   "name": "Kachu (Arbi)",
-   "price": "30/kg",
-   "minQuantity": "500",
-   "image": "/kachu.jpeg",
-   "status": 1
+      "id": 52,
+      "name": "Kachu (Arbi)",
+      "price": "30/kg",
+      "minQuantity": "500",
+      "image": "/kachu.jpeg",
+      "status": 1
    },
    {
       "id": 53,
@@ -327,44 +327,44 @@
       "image": "/Ol.jpeg",
       "status": 1
    },
-  {
-     "id": 31,
-     "name": "Giloy",
-     "price": "90 /kg",
-     "minQuantity": "50",
-     "image": "/giloy.jpeg",
-     "status": 1
-  },
-  {
-     "id": 32,
-     "name": "Bel",
-     "price": "6/Piece",
-     "minQuantity": "1",
-     "image": "/bel.jpeg",
-     "status": 0
-  },
-  {
-   "id": 55,
-   "name": "Satputia",
-   "price": "38/kg",
-   "minQuantity": "500",
-   "image": "/satputia.jpg",
-   "status": 1
-},
-{
-   "id": 56,
-   "name": "Kaksha",
-   "price": "60/kg",
-   "minQuantity": "500",
-   "image": "/kaksha.jpeg",
-   "status": 1
-},
-{
-   "id": 57,
-   "name": "Mushroom",
-   "price": "",
-   "minQuantity": "500",
-   "image": "/mushroom.jpeg",
-   "status": 1
-}
+   {
+      "id": 31,
+      "name": "Giloy",
+      "price": "90 /kg",
+      "minQuantity": "50",
+      "image": "/giloy.jpeg",
+      "status": 1
+   },
+   {
+      "id": 32,
+      "name": "Bel",
+      "price": "6/Piece",
+      "minQuantity": "1",
+      "image": "/bel.jpeg",
+      "status": 0
+   },
+   {
+      "id": 55,
+      "name": "Satputia",
+      "price": "38/kg",
+      "minQuantity": "500",
+      "image": "/satputia.jpg",
+      "status": 1
+   },
+   {
+      "id": 56,
+      "name": "Kaksha",
+      "price": "60/kg",
+      "minQuantity": "500",
+      "image": "/kaksha.jpeg",
+      "status": 1
+   },
+   {
+      "id": 57,
+      "name": "Mushroom",
+      "price": "",
+      "minQuantity": "500",
+      "image": "/mushroom.jpeg",
+      "status": 1
+   }
 ]

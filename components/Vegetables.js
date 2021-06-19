@@ -12,17 +12,15 @@ export default function Vegetable({ lists }) {
           itemScope
           itemType="https://schema.org/Product"
         >
-          <a className="block relative h-auto overflow-hidden">
-            <Image
-              itemProp="image"
-              alt={each.name}
-              width={200}
-              height={150}
-              quality={45}
-              className="object-center rounded-2xl w-full h-full block"
-              src={each.image}
-            />
-          </a>
+          <Image
+            itemProp="image"
+            alt={each.name}
+            width={200}
+            height={150}
+            quality={45}
+            className="object-center rounded-2xl w-full h-full block"
+            src={each.image}
+          />
           <div className="flex flex-col bg-yellow-400 rounded-tl-2xl rounded-tr-2xl">
             <Counter {...each} />
             <div className="flex justify-around text-base">

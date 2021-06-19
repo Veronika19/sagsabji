@@ -5,11 +5,11 @@
 
 @layer base {
   .set_prod_type_btn {
-    @apply font-bold text-green-700  bg-yellow-400 py-1 px-10 rounded italic;
+    @apply font-bold text-green-700  bg-yellow-400 py-2 px-4 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl italic;
   }
 
   .set_prod_type_btn_active {
-    @apply font-bold text-yellow-400  bg-green-700 py-1 px-10 rounded underline italic;
+    @apply font-bold text-yellow-400  bg-green-700 py-2 px-4 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl underline italic;
   }
 }
 
