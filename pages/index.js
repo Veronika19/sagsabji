@@ -10,7 +10,12 @@ import Cart from '../components/Cart';
 
 export default function Home() {
   const [prodType, setProdType] = useState(Vegetables);
-
+  const scrollToList = () =>
+    window.scrollTo({
+      top: 160,
+      left: 0,
+      behavior: 'smooth',
+    });
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
@@ -39,7 +44,10 @@ export default function Home() {
             <Slider />
             <div className="flex flex-wrap justify-evenly py-2 mb-4 text-lg sticky top-2 z-20 bg-gray-100">
               <button
-                onClick={() => setProdType(Vegetables)}
+                onClick={() => {
+                  setProdType(Vegetables);
+                  scrollToList();
+                }}
                 className={
                   prodType == Vegetables ? 'set_prod_type_btn_active' : 'set_prod_type_btn'
                 }
@@ -49,18 +57,17 @@ export default function Home() {
               <button
                 onClick={() => {
                   setProdType(Fruit);
-                  window.scrollTo({
-                    top: 160,
-                    left: 0,
-                    behavior: 'smooth',
-                  });
+                  scrollToList();
                 }}
                 className={prodType == Fruit ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Fruits
               </button>
               <button
-                onClick={() => setProdType(DryFruits)}
+                onClick={() => {
+                  setProdType(DryFruits);
+                  scrollToList();
+                }}
                 className={prodType == DryFruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Dry Fruits

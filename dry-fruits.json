@@ -4,7 +4,7 @@
     "name":"STC Kaju Gold Jar",
     "price":"230/250 gm",
     "minQuantity":"250",
-    "image":"/STC Kaju Gold Jar.png",
+    "image":"/STC Kaju Gold Jar.PNG",
     "status": 1
   },
   {
@@ -12,7 +12,7 @@
     "name":"STC Kaju Platinum Jar",
     "price":"240/250 gm",
     "minQuantity":"250",
-    "image":"/STC Kaju Platinum.png",
+    "image":"/STC Kaju Platinum.PNG",
     "status": 1
   },
   {
@@ -20,7 +20,7 @@
     "name":"STC Kiwi Dry",
     "price":"155/250 gm",
     "minQuantity":"250",
-    "image":"/STC Kiwi Dry.png",
+    "image":"/STC Kiwi Dry.PNG",
     "status": 1
   },
   {
@@ -52,7 +52,7 @@
     "name":"Saudi Khajoor",
     "price":"210/400 gm",
     "minQuantity":"400",
-    "image":"/Saudi Khajoor.png",
+    "image":"/Saudi Khajoor.PNG",
     "status": 1
   },
   {
@@ -60,7 +60,7 @@
     "name":"STC Anjeer Green",
     "price":"250/250 gm",
     "minQuantity":"250",
-    "image":"/STC Anjeer Green.png",
+    "image":"/STC Anjeer Green.PNG",
     "status": 1
   },
   {
@@ -68,7 +68,7 @@
     "name":"STC Munakka Pink",
     "price":"185/250 gm",
     "minQuantity":"250",
-    "image":"/STC Munakka Pink.png",
+    "image":"/STC Munakka Pink.PNG",
     "status": 1
   },
   {
@@ -76,7 +76,7 @@
     "name":"STC Munakka Blue",
     "price":"195/250 gm",
     "minQuantity":"250",
-    "image":"/STC Munakka Blue.png",
+    "image":"/STC Munakka Blue.PNG",
     "status": 1
   },
   {
@@ -84,7 +84,7 @@
     "name":"STC Strawberry",
     "price":"110/250 gm",
     "minQuantity":"250",
-    "image":"/STC Strawberry.png",
+    "image":"/STC Strawberry.PNG",
     "status": 1
   },
   {
@@ -99,7 +99,7 @@
     "name":"Jio Kaju W210",
     "price":"205/250 gm",
     "minQuantity":"250",
-    "image":"/Jio Kaju W210.png",
+    "image":"/Jio Kaju W210.PNG",
     "status": 1
   },
   {
@@ -115,7 +115,7 @@
     "name":"STC Pista Black",
     "price":"275/250 gm",
     "minQuantity":"250",
-    "image":"/STC Pista Black.png",
+    "image":"/STC Pista Black.PNG",
     "status": 1
   },
   {
@@ -123,7 +123,7 @@
     "name":"STC Pista Green",
     "price":"295/250 gm",
     "minQuantity":"250",
-    "image":"/STC Pista Green.png",
+    "image":"/STC Pista Green.PNG",
     "status": 1
   },
   {
@@ -139,7 +139,7 @@
     "name":"STC Anjeer Orange",
     "price":"270/250 gm",
     "minQuantity":"250",
-    "image":"/STC Anjeer Orange.png",
+    "image":"/STC Anjeer Orange.PNG",
     "status": 1
   }
 ]
