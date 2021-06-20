@@ -28,7 +28,7 @@ export default function Home() {
               className="text-sm font-medium title-font text-center text-green-700 mb-2 px-5"
               itemProp="description"
             >
-              Fresh green Vegetables, Fruits & Dry Fruits delivered directly from farm to home.
+              Fresh green Vegetables, Fruits &#38; Dry Fruits delivered directly from farm to home.
               &nbsp; Call/WhatsApp -{' '}
               <a href="tel:09931708803" itemProp="telephone" className="underline">
                 09931708803
@@ -37,9 +37,7 @@ export default function Home() {
               <a href="tel:08271700921" itemProp="telephone" className="underline">
                 08271700921
               </a>
-              <p className="bg-red-300 text-xs">
-                Note: Price may vary as per market &#38; availability
-              </p>
+              <p className="bg-red-300 text-xs">Price may vary as per market &#38; availability</p>
             </h1>
             <Slider />
             <div className="flex flex-wrap justify-evenly py-2 mb-4 text-lg sticky top-2 z-20 bg-gray-100">
