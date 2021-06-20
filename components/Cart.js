@@ -1,4 +1,4 @@
-import { FiSend, FiTrash2 } from 'react-icons/fi';
+import { FiSend } from 'react-icons/fi';
 import { useSelector, useDispatch } from 'react-redux';
 import { resetCart } from '../store';
 import { formatQuantity } from './Helper';
@@ -27,16 +27,8 @@ export default function Cart() {
     cartComp = (
       <div className="flex justify-between flex-wrap content-center border-8 fixed left-0 bottom-0 w-full md:w-11/12 md:left-14 px-2 bg-yellow-600 h-14 min-h-0 mb-3 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
         <div className="text-white text-lg ml-2">
-          <i>Total: {cart.length} items</i>
+          <i>Total added: {cart.length} items</i>
         </div>
-        <button
-          onClick={() => sendOrder(whatsAppMsg)}
-          className="px-6 md:px-8 text-lg bg-gray-200 text-red-600 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl"
-        >
-          <div className="flex  flex-row items-center">
-            <FiTrash2 />
-          </div>
-        </button>
         <button
           onClick={() => sendOrder(whatsAppMsg)}
           className="px-6 md:px-8 text-lg bg-green-700 text-yellow-400 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl"

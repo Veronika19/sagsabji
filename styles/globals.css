@@ -13,6 +13,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .prev,
 .next {
   position: absolute;

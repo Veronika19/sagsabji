@@ -47,7 +47,14 @@ export default function Home() {
                 Vegetables
               </button>
               <button
-                onClick={() => setProdType(Fruit)}
+                onClick={() => {
+                  setProdType(Fruit);
+                  window.scrollTo({
+                    top: 160,
+                    left: 0,
+                    behavior: 'smooth',
+                  });
+                }}
                 className={prodType == Fruit ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Fruits
