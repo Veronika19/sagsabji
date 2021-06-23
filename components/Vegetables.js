@@ -28,12 +28,18 @@ export default function Vegetable({ lists }) {
                 {each.name}
               </h2>
               <p className="font-medium text-green-800">
-                <span itemProp="priceCurrency" content="Indian rupee">
-                  Rs.
-                </span>
-                <span itemProp="price" content={each.price}>
-                  {each.price}
-                </span>
+                {each.price != '' ? (
+                  <>
+                    <span itemProp="priceCurrency" content="Indian rupee">
+                      Rs.
+                    </span>
+                    <span itemProp="price" content={each.price}>
+                      {each.price}
+                    </span>
+                  </>
+                ) : (
+                  ''
+                )}
               </p>
             </div>
           </div>
