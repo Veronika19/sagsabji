@@ -5,7 +5,7 @@
     "price": "55/kg",
     "minQuantity": "500",
     "image": "/Mango Dasheri.jpg",
-    "status": 1
+    "status": 0
   },
   {
     "id": 40,
@@ -17,16 +17,16 @@
   },
   {
     "id": 41,
-    "name": "Apple Gala",
-    "price": "255/kg",
+    "name": "Apple Washington",
+    "price": "240/kg",
     "minQuantity": "500",
     "image": "/Apple-Gala.jpg",
     "status": 1
   },
   {
     "id": 42,
-    "name": "Fuji",
-    "price": "230/kg",
+    "name": "Apple Gala",
+    "price": "255/kg",
     "minQuantity": "500",
     "image": "/Fuji-fruit.jpg",
     "status": 1
@@ -93,14 +93,6 @@
     "price": "120/3Piece",
     "minQuantity": "3",
     "image": "/Kiwi-Fruit.webp",
-    "status": 1
-  },
-  {
-    "id": 77,
-    "name": "Apple Washington",
-    "price": "240/kg",
-    "minQuantity": "500",
-    "image": "/Apple-Gala.jpg",
     "status": 1
   }
 ]
