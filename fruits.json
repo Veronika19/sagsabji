@@ -18,7 +18,7 @@
   {
     "id": 41,
     "name": "Apple Gala",
-    "price": "235/kg",
+    "price": "255/kg",
     "minQuantity": "500",
     "image": "/Apple-Gala.jpg",
     "status": 1
@@ -82,7 +82,7 @@
   {
     "id": 49,
     "name": "Tender Coconut",
-    "price": "45/Piece",
+    "price": "48/Piece",
     "minQuantity": "1",
     "image": "/Tender Coconut.jpg",
     "status": 1
@@ -93,6 +93,14 @@
     "price": "120/3Piece",
     "minQuantity": "3",
     "image": "/Kiwi-Fruit.webp",
+    "status": 1
+  },
+  {
+    "id": 77,
+    "name": "Apple Washington",
+    "price": "240/kg",
+    "minQuantity": "500",
+    "image": "/Apple-Gala.jpg",
     "status": 1
   }
 ]
