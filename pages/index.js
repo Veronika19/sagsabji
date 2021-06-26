@@ -9,7 +9,8 @@ import Slider from '../components/Slider';
 import Cart from '../components/Cart';
 const apiPath = process.env.API_URL;
 
-export default function Home({ vegetables, fruits }) {
+export default function Home({ vegetables, fruits, dryFruits }) {
+  const [prodType, setProdType] = useState(vegetables);
   const scrollToList = () =>
     window.scrollTo({
       top: 160,
@@ -43,7 +44,7 @@ export default function Home({ vegetables, fruits }) {
             <div className="flex flex-wrap justify-evenly py-2 mb-4 text-lg sticky top-2 z-20 bg-gray-100">
               <button
                 onClick={() => {
-                  setProdType(Vegetables);
+                  setProdType(vegetables);
                   scrollToList();
                 }}
                 className={
@@ -54,19 +55,19 @@ export default function Home({ vegetables, fruits }) {
               </button>
               <button
                 onClick={() => {
-                  setProdType(Fruit);
+                  setProdType(fruits);
                   scrollToList();
                 }}
-                className={prodType == Fruit ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
+                className={prodType == fruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Fruits
               </button>
               <button
                 onClick={() => {
-                  setProdType(DryFruits);
+                  setProdType(dryFruits);
                   scrollToList();
                 }}
-                className={prodType == DryFruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
+                className={prodType == dryFruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Dry Fruits
               </button>
@@ -87,9 +88,10 @@ export async function getStaticProps() {
   const products = await res.json();
   const vegetables = products.filter((each) => each.categoryId === 1);
   const fruits = products.filter((each) => each.categoryId === 2);
-  console.log(fruits);
+  const dryFruits = products.filter((each) => each.categoryId === 3);
+  console.log(dryFruits);
   return {
-    props: { fruits, vegetables },
+    props: { fruits, vegetables, dryFruits },
     revalidate: 1, //in case any new product is added in db
   };
 }
