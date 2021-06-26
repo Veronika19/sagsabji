@@ -4,13 +4,18 @@ import Vegetable from '../components/Vegetables';
 
 import Vegetables from '../vegatables.json';
 import Fruit from '../fruits.json';
+import DryFruits from '../dry-fruits.json';
 import Slider from '../components/Slider';
 import Cart from '../components/Cart';
 const apiPath = process.env.API_URL;
 
 export default function Home({ vegetables, fruits }) {
-  const [prodType, setProdType] = useState(vegetables);
-
+  const scrollToList = () =>
+    window.scrollTo({
+      top: 160,
+      left: 0,
+      behavior: 'smooth',
+    });
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
@@ -23,8 +28,8 @@ export default function Home({ vegetables, fruits }) {
               className="text-sm font-medium title-font text-center text-green-700 mb-2 px-5"
               itemProp="description"
             >
-              Fresh green Vegetables, Fruits, Milk, Egg delivered directly from farm to home. &nbsp;
-              Call/WhatsApp -{' '}
+              Fresh green Vegetables, Fruits &#38; Dry Fruits delivered directly from farm to home.
+              &nbsp; Call/WhatsApp -{' '}
               <a href="tel:09931708803" itemProp="telephone" className="underline">
                 09931708803
               </a>
@@ -32,14 +37,15 @@ export default function Home({ vegetables, fruits }) {
               <a href="tel:08271700921" itemProp="telephone" className="underline">
                 08271700921
               </a>
-              <p className="bg-red-300 text-xs">
-                Note: Price may vary as per market &#38; availability
-              </p>
+              <p className="bg-red-300 text-xs">Price may vary as per market &#38; availability</p>
             </h1>
             <Slider />
-            <div className="flex flex-wrap justify-evenly mb-4 text-lg">
+            <div className="flex flex-wrap justify-evenly py-2 mb-4 text-lg sticky top-2 z-20 bg-gray-100">
               <button
-                onClick={() => setProdType(vegetables)}
+                onClick={() => {
+                  setProdType(Vegetables);
+                  scrollToList();
+                }}
                 className={
                   prodType == vegetables ? 'set_prod_type_btn_active' : 'set_prod_type_btn'
                 }
@@ -47,10 +53,22 @@ export default function Home({ vegetables, fruits }) {
                 Vegetables
               </button>
               <button
-                onClick={() => setProdType(fruits)}
-                className={prodType == fruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
+                onClick={() => {
+                  setProdType(Fruit);
+                  scrollToList();
+                }}
+                className={prodType == Fruit ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
               >
                 Fruits
+              </button>
+              <button
+                onClick={() => {
+                  setProdType(DryFruits);
+                  scrollToList();
+                }}
+                className={prodType == DryFruits ? 'set_prod_type_btn_active' : 'set_prod_type_btn'}
+              >
+                Dry Fruits
               </button>
             </div>
             <div className="flex flex-wrap" itemScope itemType="https://schema.org/ItemList">
