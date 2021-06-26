@@ -4,3 +4,8 @@ module.exports = {
     strictPostcssConfiguration: true,
   },
 };
+module.exports = {
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
+};
