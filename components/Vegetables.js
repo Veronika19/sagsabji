@@ -6,6 +6,7 @@ import isEmpty from '../utils/is-empty';
 export default function Vegetable({ lists }) {
   const vegList = lists.map((each, index) => {
     if (each.status === '1') {
+      console.log('eacheach====', each.ProductOption.price);
       return (
         <div
           key={each.id}
@@ -30,15 +31,15 @@ export default function Vegetable({ lists }) {
               <h2 className="text-gray-900 title-font font-bold" itemProp="name">
                 {each.name}
               </h2>
-              {isEmpty(each.price) ? (
+              {each.ProductOption.showPrice === 'No' ? (
                 <p></p>
               ) : (
                 <p className="font-medium text-green-800">
                   <span itemProp="priceCurrency" content="Indian rupee">
                     Rs.
                   </span>
-                  <span itemProp="price" content={each.price}>
-                    {each.price}
+                  <span itemProp="price" content={each.ProductOption.price}>
+                    {each.ProductOption.price.slice(0, -3)}
                   </span>
                 </p>
               )}
