@@ -1,13 +1,16 @@
-const PerPieceItems = [16, 43, 54, 55];
-const PerDozenItems = [50, 51];
+/**
+ * Category groups from table
+ * {1: Weight, 2: Quantity, 3: Dozen}
+ */
 
-export const formatQuantity = (quantity, id) => {
+export const formatQuantity = (quantity, optnGrpId) => {
   let formatedQty = quantity >= 1000 ? `${quantity / 1000} kg` : `${quantity} gm`;
   /**Adding nimboo=16 and bel=32 as they are sold in pieces not in quantity */
-  if (PerPieceItems.includes(id)) {
+  console.log('optnGrpIdoptnGrpId', optnGrpId);
+  if (optnGrpId === 2) {
     formatedQty = `${quantity} piece`;
   }
-  if (PerDozenItems.includes(id)) {
+  if (optnGrpId === 3) {
     formatedQty = `${quantity} dozen`;
   }
   return formatedQty;

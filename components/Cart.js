@@ -10,7 +10,7 @@ export default function Cart() {
   let whatsAppMsg = '';
   if (cart.length >= 1) {
     cart.forEach((element, index) => {
-      let quantity = formatQuantity(element.quantity, element.id);
+      let quantity = formatQuantity(element.quantity, element.optnGrpId);
       whatsAppMsg += `${index + 1}.${element.name} = *${quantity}* \n`;
     });
   }

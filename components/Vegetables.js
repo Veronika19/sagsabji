@@ -6,7 +6,7 @@ import isEmpty from '../utils/is-empty';
 export default function Vegetable({ lists }) {
   const vegList = lists.map((each, index) => {
     if (each.status === '1') {
-      console.log('eacheach====', each.ProductOption.price);
+      // console.log('eacheach====', each.ProductOption.Option.optiongroupId);
       return (
         <div
           key={each.id}
@@ -39,7 +39,7 @@ export default function Vegetable({ lists }) {
                     Rs.
                   </span>
                   <span itemProp="price" content={each.ProductOption.price}>
-                    {each.ProductOption.price.slice(0, -3)}
+                    {each.ProductOption.price.slice(0, -3) + '/' + each.ProductOption.Option.name}
                   </span>
                 </p>
               )}
