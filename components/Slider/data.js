@@ -17,7 +17,7 @@ const people = [
     id: 4,
     image: '/Tender Coconut.jpg',
     name: 'Tender Coconut',
-    price: 'Rs. 45/Piece',
+    price: 'Rs. 48/Piece',
     quote: '',
   },
 ];
