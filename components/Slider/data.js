@@ -3,7 +3,7 @@ const people = [
     id: 2,
     image: '/Langda.jpg',
     name: 'mango langda',
-    price: 'Rs. 55/kg',
+    price: 'Rs. 58/kg',
     quote: '',
   },
   {
