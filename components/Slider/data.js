@@ -1,9 +1,9 @@
 const people = [
   {
     id: 2,
-    image: '/Langda.jpg',
-    name: 'mango langda',
-    price: 'Rs. 58/kg',
+    image: '/Banana Singapuri.jpg',
+    name: 'Banana Singapuri',
+    price: 'Rs. 36/dozen',
     quote: '',
   },
   {

@@ -2,9 +2,6 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Vegetable from '../components/Vegetables';
 
-import Vegetables from '../vegatables.json';
-import Fruit from '../fruits.json';
-import DryFruits from '../dry-fruits.json';
 import Slider from '../components/Slider';
 import Cart from '../components/Cart';
 const apiPath = process.env.API_URL;
