@@ -15,7 +15,7 @@ export default function Home({ vegetables, fruits, dryFruits }) {
       behavior: 'smooth',
     });
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen invisible">
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
         <title>Sag SabjiWale</title>
       </Head>
